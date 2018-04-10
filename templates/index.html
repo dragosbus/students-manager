@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Students Manager</h1>
+    </header>
+    <main>
+        <ul class="students">
+            <div class="row header">
+                <li>ID</li>
+                <li>First Name</li>
+                <li>Last Name</li>
+            </div>
+            {% for student in students % }
+            <div class="row">
+                <li>{{student.student_id}}</li>
+                <li>{{student_first_name}}</li>
+                <li>{{student_last_name}}</li>
+            </div>
+            {% endfor %}
+        </ul>
+    </main>
+</body>
+</html>

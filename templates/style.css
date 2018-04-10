@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    color: rgba(0,0,0,0.75);
+    background: linear-gradient(45deg, #350002 10%, #c60124);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: #e2fcfc;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.students {
+    list-style: none;
+    background: #fff;
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.row li {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
