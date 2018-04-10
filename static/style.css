@@ -55,3 +55,39 @@ header h1 {
     margin: 0 auto;
     text-align: center;
 }
+
+#students {
+    background: #fff;
+    width: 90%;
+    padding: 10px;
+    margin: 140px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+.input label {
+    margin-bottom: 3px;
+}
+
+.btn {
+    background: rgb(17, 112, 91);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 1.6rem;
+    border: 1px solid rgba(0,0,0,0.2);
+}
